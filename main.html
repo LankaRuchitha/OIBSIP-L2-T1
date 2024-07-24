@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .main-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.5); /* Dark overlay for better readability */
+            padding: 20px;
+            border-radius: 15px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+        }
+        .main-container h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        .main-container button {
+            background: #333;
+            border: none;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 18px;
+            transition: background 0.3s;
+            margin-top: 20px;
+        }
+        .main-container button:hover {
+            background: #1C86EE;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <h1>Lanka Ruchitha</h1>
+        <button onclick="window.location.href='index.html'">Go to Calculator</button>
+    </div>
+</body>
+</html>
